@@ -1,6 +1,6 @@
 html {
-  background-color: var(--md-sys-color-surface);
-  color: var(--md-sys-color-on-surface);
+  background-color: rgb(14 21 19);
+  color: rgb(222 228 224);
 }
 
 html, body {
@@ -22,7 +22,7 @@ header {
   margin: 16px 16px;
 }
 
-.github-icon {
+#github-link svg {
   border-radius: 50%;
   filter: invert(83%) sepia(4%) saturate(2425%) hue-rotate(115deg) brightness(93%) contrast(95%);
 }
@@ -39,4 +39,17 @@ header {
 
 #capture-output {
   object-fit: scale-down;
+}
+
+.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: unset;
+  background-color: rgb(132 214 194);
+  color: #000;
+  cursor: pointer;
 }

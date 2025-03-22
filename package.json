@@ -1,14 +1,16 @@
 {
   "name": "dead-simple-screen-capture",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Capture and view a window, screen, or browser tab",
   "scripts": {
-    "build": "node build.cjs"
+    "build": "rm -rf temp && rm -rf dist && node build.cjs"
   },
   "author": "Ethan Massie",
   "license": "ISC",
   "devDependencies": {
     "ejs": "^3.1.10",
-    "esbuild": "^0.23.1"
+    "esbuild": "^0.25.1",
+    "@minify-html/node": "^0.16.4",
+    "@mdi/js": "7.4.47"
   }
 }
